@@ -1,0 +1,101 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.screen{
+    min-height: 100%;
+    text-align: center;
+}
+
+#main{
+    width: 502px;
+    height: 601px;
+    border: 2px solid #222;
+    background-color: #eee;
+    position: relative;
+}
+.square{
+    position: absolute;
+    left : 0;
+    top : 0;
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+    background-color: #5cb85c;
+}
+.square2{
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+    background-color: #5cb85c;
+}
+
+.score-panal{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgb(2, 67, 87);
+    border: 1px solid white;
+    color: cornsilk;
+}
+
+.timer1{
+    height: 100px;
+    width: 200px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(2, 67, 87);
+    border: 1px solid white;
+    color: cornsilk;
+}
+
+#start-btn{
+    font-size: 1.3em;
+}
+
+#stop-btn{
+    font-size: 1.3em;
+}
+
+.intro-page{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 32, 99, 0.8);
+    text-align: center;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.pop-up1{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.pop-up2{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.game-over{
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    z-index: 2;
+    visibility: hidden;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Falling Boxes</title>
+</head>
+<body>
+    <div class="pop-up1 d-flex justify-content-center align-items-center">
+        <div class="bg-light p-5">
+            <h1>YOU WON</h1>
+            <br>
+            <input type="button" class="btn btn-success p-4 first-page1" value="Click Here">
+        </div>
+    </div>
+    <div class="pop-up2 d-flex justify-content-center align-items-center">
+        <div class="bg-light p-5">
+            <h1>YOU LOST</h1>
+            <br>
+            <input type="button" class="btn btn-success p-4 first-page2" value="Click Here">
+        </div>
+    </div>
+    <div class="game-over d-flex justify-content-center align-items-center">
+        <div class="bg-light p-5">
+            <h1>GAME OVER</h1>
+            <br>
+            <input type="button" class="btn btn-success p-4 first-page3" value="Click Here">
+        </div>
+    </div>
+    <section class="bg-dark screen d-flex justify-content-center align-items-center">
+        <div class="container bg-info d-flex justify-content-center align-items-center py-5">
+            <div id="main"></div>
+            <div class="ml-5 pl-4">
+                <input id="start-btn" type="button" class="start btn btn-dark py-4 col-12" value="START PLAYING">
+                <br><br>
+                <input id="stop-btn" type="button" class="start btn btn-dark py-4 col-12" value="STOP PLAYING">
+                <div class="py-4">
+                    <div class="score-panal d-flex align-items-center justify-content-center">
+                        <p class="px-2">Your Score:</p>
+                        <p class="score">0</p>
+                    </div>
+                    <br>
+                    <div class="timer1 d-flex align-items-center justify-content-center">
+                        <p class="px-2">Timer:</p>
+                        <p class="timer2">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../javaScript/main.js"></script>
+</body>
+</html>
